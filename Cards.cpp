@@ -105,6 +105,7 @@ int getPickCountNeededForFourSuits(bool verbose, bool useReplacement) {
 
 		picksCount++;
 
+		// output all the picked number
 		if (verbose) {
 			std::cout << Constants::RANK[static_cast<int>(rank)] << " of " << Constants::SUIT[static_cast<int>(suit)] << '\n';
 		}
